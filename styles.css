@@ -1,0 +1,1454 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif !important;
+   background: linear-gradient(to left, #45108a , #3d065f, #10054d);
+}
+
+html{
+    transition: .4s;
+    scroll-behavior: smooth;
+}
+
+
+
+.container-fluid{
+    max-width: 75%;
+    
+}
+
+
+.navbar-expand-lg{
+    background: linear-gradient(to right, #7700ff, #AD30F5);
+    border-bottom: #7700ff;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+
+.colornav{
+    background: transparent;
+}
+
+.colornav a{
+    color: #fff !important;
+    
+}
+
+.navconfig{
+    margin-right: 10px;
+}
+
+
+#navbarcontent{
+    max-width: 661px;
+    font-size: larger;
+    padding: 5px 0;
+}
+
+
+
+
+
+.hero h1{
+    color: beige;
+    text-align: initial;
+    font-size: 60px; font-weight: 900;
+    padding-top: 15%;
+}
+
+
+.hero span{
+    color: #7e7ac3;
+
+}
+
+.hero img{
+    max-width: 600px;
+    width: 500px;
+    padding-top: 100px;
+    margin-left: -40px
+}
+
+.container-sm{
+    padding: auto;
+    margin: auto;
+}
+
+.hero .row{
+    margin: auto;
+}
+
+
+
+.hero .download{
+    max-width: 500px;
+    max-height: 250px;
+    width: 220px;
+    height: 77px;
+    background: #fff;
+    border: #7e7ac3 3px solid;
+    border-radius: 30px;
+    margin: -7% 6%;
+    position: absolute;
+    color: #10054d;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.download:hover{
+    background: #7e7ac3;
+    color: #fff;
+    box-shadow: beige 0 0 15px;
+    margin:-8% 6%;
+}
+
+
+
+
+
+#sobremi .container{
+    max-height: 550px;
+    height: 500px;
+}
+
+
+#sobremi .bubbles1{
+    margin-top: 85px;
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    left: 14%;
+    background-color: #7e7ac3;
+}
+
+#sobremi .bubbles2{
+    margin-top: 39px;
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    border-radius: 50%;
+    right: 16%;
+    background-color: #7e7ac3;
+}
+
+#sobremi .bubbles3{
+    margin-top: 304px;
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    right: 28%;
+    background-color: #7e7ac3;
+}
+
+
+
+
+#sobremi h2{
+    color: #7e7ac3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#sobremi p{
+    color: beige;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+
+
+.about{
+    max-width: 707px;
+    margin: 60px auto auto;
+    padding: 20px;
+    background: rgb(50 6 91 / 26%);
+    box-shadow: rgb(53 6 92 / 30%) 0px 8px 32px 0px;
+    backdrop-filter: blur(100px);
+    border: 1px solid #7e7ac3;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+#habilidades h2{
+    color: #7e7ac3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#habilidades h5{
+    text-align: center;
+}
+
+.cardsettings{
+    box-shadow: -5px 5px 15px -4px #242424; 
+    margin-bottom: 10px;
+}
+
+
+#experiencia h2{
+    color: #7e7ac3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.imgexp{
+    margin: auto;
+    max-width: 1280px;
+    max-height: 720px;
+}
+    
+
+#portafolio h2{
+    color: #7e7ac3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#portafolio .container{
+    height: 800px;
+}
+    
+
+#portafolio .botonvm{
+    background-color: #7e7ac3;
+    position: absolute;
+    left: 47%;
+    margin-top: 20px;
+    color: beige;
+}
+
+#portafolio .botonvm:hover{
+    background: #545283;
+    color: #fff;
+}
+
+#portafolio h5{
+    background-color: #7700ffaf;
+}
+
+#portafolio p{
+    background-color: #7700ffaf;
+}
+
+
+
+#contacto h2{
+    color: #7e7ac3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+#contacto .tarj{
+    padding: 10px;
+    position: relative;
+    width: 300px;
+
+}
+
+#contacto .row{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.tarj p{
+    font-size: 20px;
+    text-align: center;
+    color: beige;
+    margin-top: 20px;
+}
+
+.tarj a{
+    max-width: 110px;
+    align-items: center;
+    background: #7e7ac3;
+    color: beige;
+    transition: .3s;
+}
+
+.tarj a:hover{
+    background: #545283;
+    color: #fff;
+}
+
+.footer{
+    background: black;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .container-fluid{
+        max-width: max-content;
+    }
+
+    .hero h1{
+        margin-left: 7%;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .hero img{
+        display: none;
+    }
+
+    .container-sm{
+        display: none;
+    }
+
+    .hero .row{
+        width: 100%;
+    }
+
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 50px;
+        font-size: 12px;
+        margin: 0 40px;
+    }
+
+    #sobremi .container{
+        height: 520px;
+    }
+
+    #sobremi .bubbles1{
+        margin-top: 83px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        left: -7%;
+    }
+    
+    #sobremi .bubbles2{
+        margin-top: 65px;
+        width: 112px;
+        height: 112px;
+        border-radius: 50%;
+        right: 1%;
+    }
+    
+    #sobremi .bubbles3{
+        margin-top: 420px;
+        width: 92px;
+        height: 92px;
+        border-radius: 50%;
+        right: 0%;
+    }
+
+    #sobremi h2{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    
+    #sobremi p{
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+    
+    
+    
+    .about{
+        max-width: 707px;
+        margin: 60px auto auto;
+        padding: 20px;
+        background: rgb(50 6 91 / 26%);
+        box-shadow: rgb(53 6 92 / 30%) 0px 8px 32px 0px;
+        backdrop-filter: blur(100px);
+        border: 1px solid #7e7ac3;
+        border-radius: 20px;
+    }
+
+    
+    .imgexp{
+        height: auto;
+        margin: auto;
+    }
+
+    #experiencia h5{
+        font-size: 18px;
+    }
+
+    #experiencia p{
+        font-size: 15px;
+    }
+
+    #portafolio .container{
+        height: 360px;
+    }
+        
+    
+    #portafolio .botonvm{
+        left: 39%;
+    }
+    
+
+
+    #contacto .tarj{
+        padding: 0;
+    
+    }
+    
+    .tarj p{
+        font-size: 20px;
+    }
+    
+    .tarj a{
+        margin-bottom: 15px;
+    }
+    
+    .footer{
+        font-size: 18px;
+    }
+
+}
+
+
+    
+@media screen and (min-width: 414px){
+    .hero img{
+        display: flex;
+        width: 177px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px){
+    
+    .container-fluid{
+        max-width: max-content;
+    }
+
+    .hero h1{
+        margin-left: 7%;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .hero img{
+        width: 206px;
+        max-width: 211px;
+    }
+
+    .container-sm{
+        display: none;
+    }
+
+    .hero .row{
+        width: 100%;
+    }
+
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 50px;
+        font-size: 12px;
+        margin: 0 40px;
+    }
+
+    #sobremi .container{
+        height: 400px;
+    }
+
+    #sobremi .bubbles1{
+        margin-top: 87px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        left: -3%;
+    }
+    
+    #sobremi .bubbles2{
+        margin-top: 89px;
+        width: 112px;
+        height: 112px;
+        border-radius: 50%;
+        right: 1%;
+    }
+    
+    #sobremi .bubbles3{
+        margin-top: 250px;
+        width: 92px;
+        height: 92px;
+        border-radius: 50%;
+        right: 0%;
+    }
+
+    #sobremi h2{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    
+    #sobremi p{
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+    
+    
+    
+    .about{
+        max-width: 707px;
+        margin: 60px auto auto;
+        padding: 20px;
+        background: rgb(50 6 91 / 26%);
+        box-shadow: rgb(53 6 92 / 30%) 0px 8px 32px 0px;
+        backdrop-filter: blur(100px);
+        border: 1px solid #7e7ac3;
+        border-radius: 20px;
+    }
+
+    
+    .imgexp{
+        height: auto;
+        margin: auto;
+    }
+
+    #experiencia h5{
+        font-size: 18px;
+    }
+
+    #experiencia p{
+        font-size: 18px;
+    }
+
+    #portafolio .container{
+        height: 470px;
+    }
+        
+    
+    #portafolio .botonvm{
+        left: 40%;
+    }
+
+    #contacto h2{
+        margin-top: 50px;
+    }
+    
+
+
+    #contacto .tarj{
+        padding: 0;
+    
+    }
+    
+    .tarj p{
+        font-size: 25px;
+    }
+    
+    .tarj a{
+        margin-bottom: 15px;
+    }
+    
+    .footer{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 600px){
+    #portafolio .botonvm{
+        left: 43%;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px){
+    .container-fluid{
+        max-width: max-content;
+    }
+
+    .hero h1{
+        margin-left: 7%;
+        margin-top: 20px;
+        font-size: 45px;
+    }
+
+    .hero img{
+        width: 258px;
+        max-width: 285px;
+    }
+
+    .container-sm{
+        display: none;
+    }
+
+    .hero .row{
+        width: 100%;
+    }
+
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 50px;
+        font-size: 12px;
+        margin: 0 53px;
+    }
+
+    #sobremi .container{
+        height: 440px;
+    }
+
+    #sobremi .bubbles1{
+        margin-top: 87px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        left: -3%;
+    }
+    
+    #sobremi .bubbles2{
+        margin-top: 89px;
+        width: 112px;
+        height: 112px;
+        border-radius: 50%;
+        right: 1%;
+    }
+    
+    #sobremi .bubbles3{
+        margin-top: 250px;
+        width: 92px;
+        height: 92px;
+        border-radius: 50%;
+        right: 0%;
+    }
+
+    #sobremi h2{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    
+    #sobremi p{
+        font-size: 22px;
+        margin: 20px 0px;
+    }
+    
+    
+    
+    .about{
+        max-width: 707px;
+        margin: 60px auto auto;
+        padding: 20px;
+        background: rgb(50 6 91 / 26%);
+        box-shadow: rgb(53 6 92 / 30%) 0px 8px 32px 0px;
+        backdrop-filter: blur(100px);
+        border: 1px solid #7e7ac3;
+        border-radius: 20px;
+    }
+
+    
+    .imgexp{
+        height: auto;
+        margin: auto;
+    }
+
+    #experiencia h5{
+        font-size: 20px;
+    }
+
+    #experiencia p{
+        font-size: 18px;
+    }
+
+    #portafolio .container{
+        height: 530px;
+    }
+        
+    
+    #portafolio .botonvm{
+        left: 43%;
+    }
+
+    #contacto h2{
+        margin-top: 50px;
+    }
+    
+
+
+    #contacto .tarj{
+        padding: 0;
+    
+    }
+    
+    .tarj p{
+        font-size: 25px;
+    }
+    
+    .tarj a{
+        margin-bottom: 15px;
+    }
+    
+    .footer{
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 768px){
+
+    .hero img{
+        width: 285px;
+        max-width: 285px;
+    }
+
+
+    #sobremi .bubbles1{
+        margin-top: 87px;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        left: -3%;
+    }
+    
+    #sobremi .bubbles2{
+        margin-top: 89px;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        right: 1%;
+    }
+    
+    #sobremi .bubbles3{
+        margin-top: 353px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        right: 8%;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px){
+    .container-fluid{
+        max-width: max-content;
+    }
+
+    .hero h1{
+        margin-left: 7%;
+        margin-top: 5px;
+        font-size: 55px;
+    }
+
+    .hero img{
+        width: 330px;
+        max-width: 370px;
+    }
+
+    .hero .row{
+        width: 100%;
+    }
+
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 60px;
+        width: 220px;
+        font-size: 12px;
+        margin: 6px 53px;
+    }
+
+    #sobremi .container{
+        height: 440px;
+    }
+
+    #sobremi .bubbles1{
+        margin-top: 87px;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        left: -3%;
+    }
+    
+    #sobremi .bubbles2{
+        margin-top: 89px;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        right: 1%;
+    }
+    
+    #sobremi .bubbles3{
+        margin-top: 374px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        right: 1%;
+    }
+
+    #sobremi h2{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    
+    #sobremi p{
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+    
+    
+    
+    .about{
+        max-width: 707px;
+        margin: 60px auto auto;
+        padding: 20px;
+        background: rgb(50 6 91 / 26%);
+        box-shadow: rgb(53 6 92 / 30%) 0px 8px 32px 0px;
+        backdrop-filter: blur(100px);
+        border: 1px solid #7e7ac3;
+        border-radius: 20px;
+    }
+
+    
+    .imgexp{
+        height: auto;
+        margin: auto;
+    }
+
+    #experiencia h5{
+        font-size: 20px;
+    }
+
+    #experiencia p{
+        font-size: 20px;
+    }
+
+    #portafolio .container{
+        height: 560px;
+    }
+        
+    
+    #portafolio .botonvm{
+        left: 45%;
+    }
+
+    #contacto h2{
+        margin-top: 50px;
+    }
+    
+
+
+    #contacto .tarj{
+        padding: 0;
+    
+    }
+    
+    .tarj p{
+        font-size: 25px;
+    }
+    
+    .tarj a{
+        margin-bottom: 15px;
+    }
+    
+    .footer{
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    .container-fluid{
+        max-width: max-content;
+    }
+
+    .hero h1{
+        margin-left: 7%;
+        margin-top: -1px;
+        font-size: 55px;
+    }
+
+    .hero img{
+        width: 370px;
+        max-width: 435px;
+    }
+
+    .hero .row{
+        width: 100%;
+    }
+
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 60px;
+        width: 220px;
+        font-size: 12px;
+        margin: -32px 70px;
+    }
+
+    #sobremi .container{
+        height: 440px;
+    }
+
+    #sobremi .bubbles1{
+        margin-top: 87px;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        left: -3%;
+    }
+    
+    #sobremi .bubbles2{
+        margin-top: 89px;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        right: 1%;
+    }
+    
+    #sobremi .bubbles3{
+        margin-top: 374px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        right: 6%;
+    }
+
+    #sobremi h2{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+    
+    #sobremi p{
+        font-size: 27px;
+        margin: 20px 0px;
+    }
+    
+    
+    
+    .about{
+        max-width: 707px;
+        margin: 60px auto auto;
+        padding: 20px;
+        background: rgb(50 6 91 / 26%);
+        box-shadow: rgb(53 6 92 / 30%) 0px 8px 32px 0px;
+        backdrop-filter: blur(100px);
+        border: 1px solid #7e7ac3;
+        border-radius: 20px;
+    }
+
+    
+    .imgexp{
+        height: auto;
+        margin: auto;
+    }
+
+    #experiencia h5{
+        font-size: 20px;
+    }
+
+    #experiencia p{
+        font-size: 22px;
+    }
+
+    #portafolio .container{
+        height: 560px;
+    }
+        
+    
+    #portafolio .botonvm{
+        left: 45%;
+    }
+
+    #contacto h2{
+        margin-top: 50px;
+    }
+    
+
+
+    #contacto .tarj{
+        padding: 0;
+    
+    }
+    
+    .tarj p{
+        font-size: 25px;
+    }
+    
+    .tarj a{
+        margin-bottom: 15px;
+    }
+    
+    .footer{
+        font-size: 25px;
+    }
+
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .container-fluid{
+        max-width: max-content;
+    }
+
+}
+
+@media screen and (min-width: 940px) and (max-width: 1200px){
+    #sobremi .bubbles1{
+        margin-top: 87px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        left: 1%;
+    }
+    
+    #sobremi .bubbles2{
+        margin-top: 89px;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        right: 1%;
+    }
+    
+    #sobremi .bubbles3{
+        margin-top: 374px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        right: 6%;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    #portafolio .container{
+        height: 660px;
+    }
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1200px) {
+    #sobremi .bubbles1{
+        margin-top: 87px;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        left: 1%;
+    }
+    
+    #sobremi .bubbles2{
+        margin-top: 89px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        right: 6%;
+    }
+    
+    #sobremi .bubbles3{
+        margin-top: 374px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        right: 11%;
+    }
+
+    #portafolio .container{
+        height: 750px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1440px){
+
+    .hero h1{
+        margin-left: 7%;
+        margin-top: -1px;
+        font-size: 60px;
+    }
+
+    .hero img{
+        width: 400px;
+        max-width: 435px;
+    }
+
+    .hero .row{
+        width: 100%;
+    }
+
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 60px;
+        width: 220px;
+        font-size: 12px;
+        margin: -36px 103px;
+    }
+
+    #sobremi .container{
+        height: 550px;
+    }
+
+    
+    #experiencia h5{
+        font-size: 22px;
+    }
+
+    #experiencia p{
+        font-size: 24px;
+    }
+
+    .tarj p{
+        font-size: 27px;
+    }
+
+    .footer{
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    #portafolio .container{
+        height: 870px;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1700px){
+
+    .hero h1{
+        margin-left: 7%;
+        margin-top: -1px;
+        font-size: 63px;
+    }
+
+    .hero img{
+        width: 410px;
+        max-width: 435px;
+    }
+
+    .hero .row{
+        width: 100%;
+    }
+
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 60px;
+        width: 220px;
+        font-size: 12px;
+        margin: -36px 103px;
+    }
+
+    #sobremi .container{
+        height: 550px;
+    }
+
+    
+    #experiencia h5{
+        font-size: 22px;
+    }
+
+    #experiencia p{
+        font-size: 24px;
+    }
+
+    .tarj p{
+        font-size: 27px;
+    }
+
+    .footer{
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (min-width: 1511px) and (max-width: 1700px){
+
+    .hero .row{
+        width: 100%;
+    }
+    .hero h1{
+        margin-left: 7%;
+        margin-top: -1px;
+        font-size: 65px;
+    }
+
+    .hero img{
+        width: 420px;
+        max-width: 435px;
+    }
+
+}
+
+@media screen and (min-width: 1556px) and (max-width: 1700px){
+    .hero h1{
+        margin-bottom: 43px;
+        margin-left: 7%;
+        margin-top: -63px;
+        font-size: 68px;
+    }
+}
+
+@media screen and (min-width: 1627px) and (max-width: 1700px){
+    .hero h1{
+        margin-bottom: 43px;
+        margin-left: 7%;
+        margin-top: -63px;
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1674px) and (max-width: 1700px){
+    .hero h1{
+        margin-bottom: 43px;
+        margin-left: 7%;
+        margin-top: -63px;
+        font-size: 73px;
+    }
+}
+
+@media screen and (min-width: 1701px) and (max-width: 2000px){
+    .hero h1{
+        margin-bottom: 43px;
+        margin-left: 7%;
+        margin-top: -63px;
+        font-size: 73px;
+    }
+
+    .hero img{
+        width: 450px;
+        max-width: 520px;
+        margin-right: 10%;
+    }
+
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 70px;
+        width: 275px;
+        font-size: 16px;
+        margin: -36px 103px;
+    }
+
+    #sobremi p{
+        font-size: 28px;
+        margin: 20px 0px;
+    }
+    
+
+    #experiencia p{
+        font-size: 24px;
+    }
+
+    .tarj p{
+        font-size: 27px;
+    }
+
+    .footer{
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (min-width: 1743px) and (max-width: 2000px){
+
+
+.hero h1{
+    margin-bottom: 43px;
+    margin-left: 7%;
+    margin-top: -63px;
+    font-size: 76px;
+}
+
+.hero .download{
+    max-width: 480px;
+    max-height: 250px;
+    height: 70px;
+    width: 275px;
+    font-size: 16px;
+    margin: -29px 129px;
+}
+
+
+
+#sobremi .bubbles2{
+    margin-top: 89px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    right: 24%;
+}
+
+}
+
+@media screen and (min-width: 1813px) and (max-width: 2000px){
+    .hero h1{
+        margin-bottom: 43px;
+        margin-left: 7%;
+        margin-top: -63px;
+        font-size: 79px;
+    }
+    #navbarcontent{
+        max-width: 800px;
+        font-size: 23px;
+        padding: 10px 1px;
+    }
+}
+
+@media screen and (min-width: 1883px) and (max-width: 2000px){
+    .hero h1{
+        font-size: 85px;
+    }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2560px){
+    .hero h1{
+        margin-bottom: 43px;
+        margin-left: 7%;
+        margin-top: -63px;
+        font-size: 90px;
+    }
+    #navbarcontent{
+        max-width: 800px;
+        font-size: 23px;
+        padding: 10px 1px;
+    }
+    .hero img{
+        width: 510px;
+        max-width: 520px;
+        margin-right: 10%;
+    }
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 70px;
+        width: 275px;
+        font-size: 18px;
+        margin: -29px 129px;
+    }
+    #sobremi p{
+        font-size: 30px;
+        margin: 20px 0px;
+    }
+    #sobremi .container{
+        height: 580px;
+    }
+    .about{
+        max-width: 762px;
+    }
+    #sobremi .bubbles2{
+        margin-top: 89px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        right: 24%;
+    }
+    
+
+    #experiencia p{
+        font-size: 26px;
+    }
+
+    .tarj p{
+        font-size: 29px;
+    }
+
+    .footer{
+        font-size: 29px;
+    }
+}
+
+@media screen and (min-width: 2138px) and (max-width: 2560px){
+    .hero h1{
+        margin-bottom: 43px;
+        margin-left: 7%;
+        margin-top: -120px;
+        font-size: 100px;
+    }
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 80px;
+        width: 300px;
+        font-size: 20px;
+        margin: -29px 129px;
+    }
+}
+
+@media screen and (min-width: 2100px) and (max-width: 2560px) {
+    #sobremi .bubbles1 {
+        margin-top: 85px;
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        left: 25%;
+    }
+
+    
+    #sobremi .bubbles2{
+        margin-top: 89px;
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        right: 28%
+    }
+
+    #sobremi .bubbles3 {
+         margin-top: 357px;
+         position: absolute;
+         width: 210px;
+         height: 210px;
+         border-radius: 50%;
+         right: 32%;
+        }
+
+}
+
+
+@media screen and (min-width: 2370px) and (max-width: 2560px){
+    #navbarcontent{
+        max-width: 900px;
+        font-size: 25px;
+        padding: 12px 1px;
+    }
+    .hero h1{
+        font-size: 120px;
+    }
+    .hero img{
+        width: 540px;
+        max-width: 550px;
+        margin-right: 10%;
+    }
+    .hero .download{
+        max-width: 480px;
+        max-height: 250px;
+        height: 80px;
+        width: 300px;
+        font-size: 20px;
+        margin: -29px 178px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px){
+    .navbar-toggler{
+        display: none;
+    }
+}
